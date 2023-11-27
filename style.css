@@ -135,6 +135,9 @@ header {
   color: #463f3a;
   padding: 20px;
 }
+.indhold {
+  text-align: left;
+}
 .beskrivelse {
   display: flex;
   flex-direction: column;
@@ -144,6 +147,7 @@ p {
   margin: 0;
   font-size: 16px;
   font-family: "EB Garamond", serif;
+  text-align: left;
 }
 p::first-letter {
   font-size: 2em;
