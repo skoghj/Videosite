@@ -259,13 +259,13 @@ p::first-letter {
 
   .plakat {
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto;
     place-items: center;
     position: relative;
     width: 100%;
     height: auto;
     aspect-ratio: 16/9;
-    margin: 0 auto;
-    padding: 0;
   }
   @font-face {
     font-family: "autography";
@@ -322,8 +322,8 @@ p::first-letter {
   }
 
   .music {
-    top: 5%;
-    left: 84%;
+    top: 6.4%;
+    left: 88%;
     position: absolute;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -356,7 +356,9 @@ p::first-letter {
     place-items: center;
     padding: 0;
   }
-
+  .fullshot {
+    grid-column: 1/4;
+  }
   .iframe-wrapper {
     position: relative;
     /* width: 100%; */
